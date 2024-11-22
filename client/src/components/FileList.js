@@ -8,7 +8,7 @@
 //       return;
 //     }
 
-//     axios.delete(`http://localhost:8000/api/scans/${id}`)
+//     axios.delete(`https://data-scanner-r1to.vercel.app/api/scans/${id}`)
 //       .then(() => {
 //         onDeleteFile(id); // Notify parent to remove file from list
 //       })
@@ -138,7 +138,7 @@ const FileList = ({ files, onDeleteFile }) => {
         return;
       }
   
-      axios.delete(`http://localhost:8000/api/scans/${id}`)
+      axios.delete(`https://data-scanner-r1to.vercel.app/api/scans/${id}`)
         .then(() => {
           onDeleteFile(id);
         })

@@ -17,8 +17,6 @@ app.use('/api/scans', scanRoutes);
 
 // MongoDB Connection
 const connectDB = async () => {
-  console.log("+++++")
-  console.log("hinar",process.env.MONGO_URI);
   try {
     
     await mongoose.connect(process.env.MONGO_URI);

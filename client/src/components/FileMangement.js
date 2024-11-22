@@ -13,7 +13,7 @@ const FileManagement = () => {
   }, []);
 
   const fetchFiles = () => {
-    axios.get('http://localhost:8000/api/scans')
+    axios.get('https://data-scanner-r1to.vercel.app/api/scans')
       .then((response) => {
         setFiles(response.data);
         setError(null);

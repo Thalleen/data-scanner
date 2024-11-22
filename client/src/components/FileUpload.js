@@ -43,7 +43,7 @@ const FileUpload = ({ onFileUploaded }) => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://localhost:8000/api/scans/upload', formData);
+      const response = await axios.post('https://data-scanner-r1to.vercel.app/api/scans/upload', formData);
       if (response.data) {
         console.log('File uploaded successfully:', response.data);
         onFileUploaded(response.data.scan);
