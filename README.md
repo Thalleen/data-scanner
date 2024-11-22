@@ -3,7 +3,7 @@
 ## Overview
 This application is a data scanning tool built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It scans uploaded files for sensitive information such as PII (Personally Identifiable Information), PHI (Protected Health Information), and PCI (Payment Card Information), classifies them accordingly, and stores the results in a database.
 
-##Live Demo
+## Live Demo
 Access the live application here: [Data Scanner](https://data-scanner.vercel.app/)
 
 ## Features
