@@ -173,5 +173,4 @@ The application uses regular expressions to identify:
    - Check network configuration in docker-compose.yml
    - Verify environment variables are properly set
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
+
