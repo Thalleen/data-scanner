@@ -164,7 +164,7 @@ The application uses regular expressions to identify:
 
 ## Troubleshooting Docker Deployment
 1. If containers fail to start:
-   - Check if ports 3000 or 5000 are already in use
+   - Check if ports 3000 or 8000 are already in use
    - Verify MongoDB connection string in .env
    - Check Docker logs for specific errors
 
