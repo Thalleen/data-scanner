@@ -16,6 +16,10 @@ This application is a data scanning tool built using the MERN (MongoDB, Express.
 - Option to delete scan records
 - Docker support for easy deployment
 
+
+## Flowchart
+<img width="412" alt="Screenshot 2024-11-23 at 3 41 44 AM" src="https://github.com/user-attachments/assets/6f7a9a7e-aef0-4f92-80c1-6da63b2218e8">
+
 ## Project Structure
 ```
 project-root/
