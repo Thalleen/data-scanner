@@ -138,7 +138,7 @@ REACT_APP_API_URL=http://localhost:8000
 - `POST /api/upload` - Upload and scan a file
 - `GET /api/scans` - Retrieve all scan records
 - `DELETE /api/scans/:id` - Delete a specific scan record
-- `GET /api/scans/:id` - Get details of a specific scan
+
 
 ## Data Classification Patterns
 The application uses regular expressions to identify:
