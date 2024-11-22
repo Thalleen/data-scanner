@@ -10,9 +10,7 @@ const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors({
-  origin: 'http://localhost:3000',  // Allow requests from React frontend
-}));
+app.use(cors());
 app.use('/api/scans', scanRoutes);
 
 // MongoDB Connection
