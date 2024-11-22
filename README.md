@@ -1,4 +1,4 @@
-#Data Scanner - MERN Stack Implementation
+## Data Scanner - MERN Stack Implementation
 
 ## Overview
 This application is a data scanning tool built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It scans uploaded files for sensitive information such as PII (Personally Identifiable Information), PHI (Protected Health Information), and PCI (Payment Card Information), classifies them accordingly, and stores the results in a database.
@@ -138,7 +138,7 @@ REACT_APP_API_URL=http://localhost:8000
 - `POST /api/upload` - Upload and scan a file
 - `GET /api/scans` - Retrieve all scan records
 - `DELETE /api/scans/:id` - Delete a specific scan record
-- `GET /api/scans/:id` - Get details of a specific scan
+
 
 ## Data Classification Patterns
 The application uses regular expressions to identify:
@@ -164,7 +164,7 @@ The application uses regular expressions to identify:
 
 ## Troubleshooting Docker Deployment
 1. If containers fail to start:
-   - Check if ports 3000 or 5000 are already in use
+   - Check if ports 3000 or 8000 are already in use
    - Verify MongoDB connection string in .env
    - Check Docker logs for specific errors
 
@@ -173,5 +173,4 @@ The application uses regular expressions to identify:
    - Check network configuration in docker-compose.yml
    - Verify environment variables are properly set
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
+
