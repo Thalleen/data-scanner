@@ -10,7 +10,7 @@ const App = () => {
         </div>
       </nav>
       <main style={styles.main}>
-        <FileManagement />
+        <FileManagement /> 
       </main>
     </div>
   );
