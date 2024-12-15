@@ -1,7 +1,7 @@
 const Scan = require('../models/ScanModel');
 const Tesseract = require('tesseract.js');
 const fs = require('fs');
-const { scanner, classifyData } = require('../utils/scanner');
+const { scanner, classifyData } = require('../utils/scanner'); 
 
 // Upload a file for scanning
 exports.uploadFile = async (req, res) => {
