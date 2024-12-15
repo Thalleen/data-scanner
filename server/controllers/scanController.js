@@ -18,7 +18,7 @@ exports.uploadFile = async (req, res) => {
       const { data: { text } } = await Tesseract.recognize(filePath);
       console.log('Extracted text from image:', text);
 
-  
+   
       if (!text.trim()) {
         return res.status(400).json({ error: 'No text detected in the image' });
       }
