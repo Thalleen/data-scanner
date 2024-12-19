@@ -4,7 +4,7 @@ const fs = require('fs');
 const { scanner, classifyData } = require('../utils/scanner'); 
 
 // Upload a file for scanning
-exports.uploadFile = async (req, res) => {
+exports.uploadFile = async (req, res) => { 
     try {
       if (!req.file) {
         return res.status(400).json({ error: 'No file uploaded' });
