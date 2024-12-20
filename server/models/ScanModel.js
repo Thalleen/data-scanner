@@ -5,7 +5,7 @@ const scanSchema = new mongoose.Schema({
   base64Image:{type:String, required:true}, 
   detectedFields: { type: Object, required: true },
   classification: { type: String, required: true },  
-  createdAt: { type: Date, default: Date.now },
+  createdAt: { type: Date, default: Date.now }, 
 });
 
 module.exports = mongoose.model('Scan', scanSchema);
